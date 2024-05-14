@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg,#d592da,#7bdcd7);
+}
+.container{
+    width: 100%;
+    max-width: 100vh;
+    padding-top:6% ;
+    padding-left: 10%;
+    color: white;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.container h1 img{
+    height: 60px;
+   
+}
+
+.container button{
+    display: flex;
+    margin: 30px 0 20px;
+    cursor: pointer;
+    align-items: center;
+    background: linear-gradient(#66439e,#3968b9);
+    outline: 0;
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+.container button img{
+    width:25px;
+    margin-right: 10px;
+}
+.container button span{
+    margin-top: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ede6e6;
+}.notes-container{
+    margin-left: 1px;
+}
+.input-notes{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: white;
+    color: #1e1d1d;
+    padding: 20px;
+    outline: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.notes-container img{
+    width: 25px;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    
+}
+.img2{
+    margin-bottom: 28px;
+   margin-right: 4px; 
+}
